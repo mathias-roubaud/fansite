@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+font-family: 'Rock Salt', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital@1&display=swap');
+font-family: 'Sansita', sans-serif;
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Rock Salt', cursive;
+}
+
+h1{
+    font-family: 'Rock Salt', cursive;
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    color: rgb(138, 4, 165);
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #afafaf;
+    background-color: black;
+    
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: #afafaf;
+    margin-right: 10px;
+    border-bottom: 1px solid white;
+    padding-bottom: 0.5px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('xxxtentacion-face.jpg');
+    color: white;
+    padding:40px;
+
+}
+gris{
+    color:#ABABAB
+}
+
+violet{
+    color: rgb(138, 4, 165);
+}
+
+blanc{
+    color: white;
+}
+header h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: white;
+}
+
+header h4{
+    color: rgb(138, 4, 165);
+    text-decoration: underline;
+}
+header button{
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: 'Sansita', sansserif;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.body .nav .h1 a:link{
+    text-decoration: red;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.main .content .rubriques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main .content .rubriques .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #afafaf;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+}
+.main .content .rubriques .left a:link{
+    color: rgb(138, 4, 165)
+}
+
+.main .content .rubriques .left a:visited{
+    color: rgb(138, 4, 165)
+}
+.main .content .rubriques.right{
+    flex: 0 0 70%;
+}
+.main .content .rubriques .right img{
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #afafaf;
+    background-color: black;
+    color: white;
+    padding: 30px 100px;
+}
+
+footer h1{
+    border-bottom: 1px solid #afafaf;
+    width: 15%;
+}
+
+a:link{
+    color: rgb(138, 4, 165);
+    text-decoration: underline;
+}
+
+a:visited{
+    color: rgb(138, 4, 165);
+}
+
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .services .service{
+    margin-right: 30px;
+    padding: 10px;
+}
+
+footer .services .service p{
+    max-width: 300px;
+}
+@media screen and (max-width: 680px;){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
